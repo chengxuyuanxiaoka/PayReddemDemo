@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD1147B41E14B976008D42A6 /* PayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1147A91E14B976008D42A6 /* PayModel.m */; };
+		BD1147B51E14B976008D42A6 /* ResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1147AB1E14B976008D42A6 /* ResultModel.m */; };
+		BD1147B61E14B976008D42A6 /* ThridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1147AD1E14B976008D42A6 /* ThridViewController.m */; };
+		BD1147B71E14B976008D42A6 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1147AF1E14B976008D42A6 /* FourthViewController.m */; };
+		BD1147B81E14B976008D42A6 /* PayAndReddem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1147B11E14B976008D42A6 /* PayAndReddem.m */; };
+		BD1147B91E14B976008D42A6 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1147B31E14B976008D42A6 /* UserInfoModel.m */; };
+		BD1147BA1E14B99D008D42A6 /* PayAndReddem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD1147B01E14B976008D42A6 /* PayAndReddem.h */; };
+		BD1147BB1E14B9A9008D42A6 /* UserInfoModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD1147B21E14B976008D42A6 /* UserInfoModel.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BD11479A1E14B954008D42A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				BD1147BB1E14B9A9008D42A6 /* UserInfoModel.h in CopyFiles */,
+				BD1147BA1E14B99D008D42A6 /* PayAndReddem.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BD11479C1E14B954008D42A6 /* libPayAndReddem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPayAndReddem.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1147A81E14B976008D42A6 /* PayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayModel.h; sourceTree = "<group>"; };
+		BD1147A91E14B976008D42A6 /* PayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayModel.m; sourceTree = "<group>"; };
+		BD1147AA1E14B976008D42A6 /* ResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultModel.h; sourceTree = "<group>"; };
+		BD1147AB1E14B976008D42A6 /* ResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultModel.m; sourceTree = "<group>"; };
+		BD1147AC1E14B976008D42A6 /* ThridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThridViewController.h; sourceTree = "<group>"; };
+		BD1147AD1E14B976008D42A6 /* ThridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThridViewController.m; sourceTree = "<group>"; };
+		BD1147AE1E14B976008D42A6 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		BD1147AF1E14B976008D42A6 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		BD1147B01E14B976008D42A6 /* PayAndReddem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayAndReddem.h; sourceTree = "<group>"; };
+		BD1147B11E14B976008D42A6 /* PayAndReddem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayAndReddem.m; sourceTree = "<group>"; };
+		BD1147B21E14B976008D42A6 /* UserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		BD1147B31E14B976008D42A6 /* UserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD1147991E14B954008D42A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD1147931E14B954008D42A6 = {
+			isa = PBXGroup;
+			children = (
+				BD11479E1E14B954008D42A6 /* PayAndReddem */,
+				BD11479D1E14B954008D42A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD11479D1E14B954008D42A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD11479C1E14B954008D42A6 /* libPayAndReddem.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD11479E1E14B954008D42A6 /* PayAndReddem */ = {
+			isa = PBXGroup;
+			children = (
+				BD1147A81E14B976008D42A6 /* PayModel.h */,
+				BD1147A91E14B976008D42A6 /* PayModel.m */,
+				BD1147AA1E14B976008D42A6 /* ResultModel.h */,
+				BD1147AB1E14B976008D42A6 /* ResultModel.m */,
+				BD1147AC1E14B976008D42A6 /* ThridViewController.h */,
+				BD1147AD1E14B976008D42A6 /* ThridViewController.m */,
+				BD1147AE1E14B976008D42A6 /* FourthViewController.h */,
+				BD1147AF1E14B976008D42A6 /* FourthViewController.m */,
+				BD1147B01E14B976008D42A6 /* PayAndReddem.h */,
+				BD1147B11E14B976008D42A6 /* PayAndReddem.m */,
+				BD1147B21E14B976008D42A6 /* UserInfoModel.h */,
+				BD1147B31E14B976008D42A6 /* UserInfoModel.m */,
+			);
+			path = PayAndReddem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD11479B1E14B954008D42A6 /* PayAndReddem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1147A51E14B954008D42A6 /* Build configuration list for PBXNativeTarget "PayAndReddem" */;
+			buildPhases = (
+				BD1147981E14B954008D42A6 /* Sources */,
+				BD1147991E14B954008D42A6 /* Frameworks */,
+				BD11479A1E14B954008D42A6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayAndReddem;
+			productName = PayAndReddem;
+			productReference = BD11479C1E14B954008D42A6 /* libPayAndReddem.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD1147941E14B954008D42A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "一米阳光";
+				TargetAttributes = {
+					BD11479B1E14B954008D42A6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BD1147971E14B954008D42A6 /* Build configuration list for PBXProject "PayAndReddem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD1147931E14B954008D42A6;
+			productRefGroup = BD11479D1E14B954008D42A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD11479B1E14B954008D42A6 /* PayAndReddem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD1147981E14B954008D42A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1147B71E14B976008D42A6 /* FourthViewController.m in Sources */,
+				BD1147B81E14B976008D42A6 /* PayAndReddem.m in Sources */,
+				BD1147B91E14B976008D42A6 /* UserInfoModel.m in Sources */,
+				BD1147B61E14B976008D42A6 /* ThridViewController.m in Sources */,
+				BD1147B51E14B976008D42A6 /* ResultModel.m in Sources */,
+				BD1147B41E14B976008D42A6 /* PayModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD1147A31E14B954008D42A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD1147A41E14B954008D42A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD1147A61E14B954008D42A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BD1147A71E14B954008D42A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD1147971E14B954008D42A6 /* Build configuration list for PBXProject "PayAndReddem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1147A31E14B954008D42A6 /* Debug */,
+				BD1147A41E14B954008D42A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1147A51E14B954008D42A6 /* Build configuration list for PBXNativeTarget "PayAndReddem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1147A61E14B954008D42A6 /* Debug */,
+				BD1147A71E14B954008D42A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD1147941E14B954008D42A6 /* Project object */;
+}

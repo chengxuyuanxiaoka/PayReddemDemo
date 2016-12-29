@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD1147CA1E14BA6D008D42A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1147C91E14BA6D008D42A6 /* main.m */; };
+		BD1147CD1E14BA6D008D42A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1147CC1E14BA6D008D42A6 /* AppDelegate.m */; };
+		BD1147D31E14BA6D008D42A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1147D11E14BA6D008D42A6 /* Main.storyboard */; };
+		BD1147D51E14BA6D008D42A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1147D41E14BA6D008D42A6 /* Assets.xcassets */; };
+		BD1147D81E14BA6D008D42A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1147D61E14BA6D008D42A6 /* LaunchScreen.storyboard */; };
+		BD1147E31E14BA6D008D42A6 /* PayAndReddemDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1147E21E14BA6D008D42A6 /* PayAndReddemDemoTests.m */; };
+		BD1147EE1E14BA6D008D42A6 /* PayAndReddemDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1147ED1E14BA6D008D42A6 /* PayAndReddemDemoUITests.m */; };
+		BD1147FF1E14BABA008D42A6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1147FC1E14BABA008D42A6 /* FirstViewController.m */; };
+		BD1148001E14BABA008D42A6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1147FE1E14BABA008D42A6 /* SecondViewController.m */; };
+		BD1148071E14BB56008D42A6 /* libPayAndReddem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1148061E14BB56008D42A6 /* libPayAndReddem.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD1147DF1E14BA6D008D42A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD1147BD1E14BA6D008D42A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD1147C41E14BA6D008D42A6;
+			remoteInfo = PayAndReddemDemo;
+		};
+		BD1147EA1E14BA6D008D42A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD1147BD1E14BA6D008D42A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD1147C41E14BA6D008D42A6;
+			remoteInfo = PayAndReddemDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD1147C51E14BA6D008D42A6 /* PayAndReddemDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayAndReddemDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1147C91E14BA6D008D42A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD1147CB1E14BA6D008D42A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD1147CC1E14BA6D008D42A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD1147D21E14BA6D008D42A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD1147D41E14BA6D008D42A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD1147D71E14BA6D008D42A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD1147D91E14BA6D008D42A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1147DE1E14BA6D008D42A6 /* PayAndReddemDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayAndReddemDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1147E21E14BA6D008D42A6 /* PayAndReddemDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayAndReddemDemoTests.m; sourceTree = "<group>"; };
+		BD1147E41E14BA6D008D42A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1147E91E14BA6D008D42A6 /* PayAndReddemDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayAndReddemDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1147ED1E14BA6D008D42A6 /* PayAndReddemDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayAndReddemDemoUITests.m; sourceTree = "<group>"; };
+		BD1147EF1E14BA6D008D42A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1147FB1E14BABA008D42A6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		BD1147FC1E14BABA008D42A6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BD1147FD1E14BABA008D42A6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BD1147FE1E14BABA008D42A6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BD1148041E14BB56008D42A6 /* PayAndReddem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayAndReddem.h; sourceTree = "<group>"; };
+		BD1148051E14BB56008D42A6 /* UserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		BD1148061E14BB56008D42A6 /* libPayAndReddem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayAndReddem.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD1147C21E14BA6D008D42A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1148071E14BB56008D42A6 /* libPayAndReddem.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1147DB1E14BA6D008D42A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1147E61E14BA6D008D42A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD1147BC1E14BA6D008D42A6 = {
+			isa = PBXGroup;
+			children = (
+				BD1147C71E14BA6D008D42A6 /* PayAndReddemDemo */,
+				BD1147E11E14BA6D008D42A6 /* PayAndReddemDemoTests */,
+				BD1147EC1E14BA6D008D42A6 /* PayAndReddemDemoUITests */,
+				BD1147C61E14BA6D008D42A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD1147C61E14BA6D008D42A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD1147C51E14BA6D008D42A6 /* PayAndReddemDemo.app */,
+				BD1147DE1E14BA6D008D42A6 /* PayAndReddemDemoTests.xctest */,
+				BD1147E91E14BA6D008D42A6 /* PayAndReddemDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD1147C71E14BA6D008D42A6 /* PayAndReddemDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BD1148011E14BB46008D42A6 /* PayAndReddemSDK */,
+				BD1147FB1E14BABA008D42A6 /* FirstViewController.h */,
+				BD1147FC1E14BABA008D42A6 /* FirstViewController.m */,
+				BD1147FD1E14BABA008D42A6 /* SecondViewController.h */,
+				BD1147FE1E14BABA008D42A6 /* SecondViewController.m */,
+				BD1147CB1E14BA6D008D42A6 /* AppDelegate.h */,
+				BD1147CC1E14BA6D008D42A6 /* AppDelegate.m */,
+				BD1147D11E14BA6D008D42A6 /* Main.storyboard */,
+				BD1147D41E14BA6D008D42A6 /* Assets.xcassets */,
+				BD1147D61E14BA6D008D42A6 /* LaunchScreen.storyboard */,
+				BD1147D91E14BA6D008D42A6 /* Info.plist */,
+				BD1147C81E14BA6D008D42A6 /* Supporting Files */,
+			);
+			path = PayAndReddemDemo;
+			sourceTree = "<group>";
+		};
+		BD1147C81E14BA6D008D42A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD1147C91E14BA6D008D42A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD1147E11E14BA6D008D42A6 /* PayAndReddemDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD1147E21E14BA6D008D42A6 /* PayAndReddemDemoTests.m */,
+				BD1147E41E14BA6D008D42A6 /* Info.plist */,
+			);
+			path = PayAndReddemDemoTests;
+			sourceTree = "<group>";
+		};
+		BD1147EC1E14BA6D008D42A6 /* PayAndReddemDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD1147ED1E14BA6D008D42A6 /* PayAndReddemDemoUITests.m */,
+				BD1147EF1E14BA6D008D42A6 /* Info.plist */,
+			);
+			path = PayAndReddemDemoUITests;
+			sourceTree = "<group>";
+		};
+		BD1148011E14BB46008D42A6 /* PayAndReddemSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BD1148021E14BB56008D42A6 /* include */,
+				BD1148061E14BB56008D42A6 /* libPayAndReddem.a */,
+			);
+			path = PayAndReddemSDK;
+			sourceTree = "<group>";
+		};
+		BD1148021E14BB56008D42A6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BD1148031E14BB56008D42A6 /* PayAndReddem */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		BD1148031E14BB56008D42A6 /* PayAndReddem */ = {
+			isa = PBXGroup;
+			children = (
+				BD1148041E14BB56008D42A6 /* PayAndReddem.h */,
+				BD1148051E14BB56008D42A6 /* UserInfoModel.h */,
+			);
+			path = PayAndReddem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD1147C41E14BA6D008D42A6 /* PayAndReddemDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1147F21E14BA6D008D42A6 /* Build configuration list for PBXNativeTarget "PayAndReddemDemo" */;
+			buildPhases = (
+				BD1147C11E14BA6D008D42A6 /* Sources */,
+				BD1147C21E14BA6D008D42A6 /* Frameworks */,
+				BD1147C31E14BA6D008D42A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayAndReddemDemo;
+			productName = PayAndReddemDemo;
+			productReference = BD1147C51E14BA6D008D42A6 /* PayAndReddemDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD1147DD1E14BA6D008D42A6 /* PayAndReddemDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1147F51E14BA6D008D42A6 /* Build configuration list for PBXNativeTarget "PayAndReddemDemoTests" */;
+			buildPhases = (
+				BD1147DA1E14BA6D008D42A6 /* Sources */,
+				BD1147DB1E14BA6D008D42A6 /* Frameworks */,
+				BD1147DC1E14BA6D008D42A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD1147E01E14BA6D008D42A6 /* PBXTargetDependency */,
+			);
+			name = PayAndReddemDemoTests;
+			productName = PayAndReddemDemoTests;
+			productReference = BD1147DE1E14BA6D008D42A6 /* PayAndReddemDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD1147E81E14BA6D008D42A6 /* PayAndReddemDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1147F81E14BA6D008D42A6 /* Build configuration list for PBXNativeTarget "PayAndReddemDemoUITests" */;
+			buildPhases = (
+				BD1147E51E14BA6D008D42A6 /* Sources */,
+				BD1147E61E14BA6D008D42A6 /* Frameworks */,
+				BD1147E71E14BA6D008D42A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD1147EB1E14BA6D008D42A6 /* PBXTargetDependency */,
+			);
+			name = PayAndReddemDemoUITests;
+			productName = PayAndReddemDemoUITests;
+			productReference = BD1147E91E14BA6D008D42A6 /* PayAndReddemDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD1147BD1E14BA6D008D42A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "一米阳光";
+				TargetAttributes = {
+					BD1147C41E14BA6D008D42A6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BD1147DD1E14BA6D008D42A6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BD1147C41E14BA6D008D42A6;
+					};
+					BD1147E81E14BA6D008D42A6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BD1147C41E14BA6D008D42A6;
+					};
+				};
+			};
+			buildConfigurationList = BD1147C01E14BA6D008D42A6 /* Build configuration list for PBXProject "PayAndReddemDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD1147BC1E14BA6D008D42A6;
+			productRefGroup = BD1147C61E14BA6D008D42A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD1147C41E14BA6D008D42A6 /* PayAndReddemDemo */,
+				BD1147DD1E14BA6D008D42A6 /* PayAndReddemDemoTests */,
+				BD1147E81E14BA6D008D42A6 /* PayAndReddemDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD1147C31E14BA6D008D42A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1147D81E14BA6D008D42A6 /* LaunchScreen.storyboard in Resources */,
+				BD1147D51E14BA6D008D42A6 /* Assets.xcassets in Resources */,
+				BD1147D31E14BA6D008D42A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1147DC1E14BA6D008D42A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1147E71E14BA6D008D42A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD1147C11E14BA6D008D42A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1148001E14BABA008D42A6 /* SecondViewController.m in Sources */,
+				BD1147CD1E14BA6D008D42A6 /* AppDelegate.m in Sources */,
+				BD1147CA1E14BA6D008D42A6 /* main.m in Sources */,
+				BD1147FF1E14BABA008D42A6 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1147DA1E14BA6D008D42A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1147E31E14BA6D008D42A6 /* PayAndReddemDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1147E51E14BA6D008D42A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1147EE1E14BA6D008D42A6 /* PayAndReddemDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD1147E01E14BA6D008D42A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD1147C41E14BA6D008D42A6 /* PayAndReddemDemo */;
+			targetProxy = BD1147DF1E14BA6D008D42A6 /* PBXContainerItemProxy */;
+		};
+		BD1147EB1E14BA6D008D42A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD1147C41E14BA6D008D42A6 /* PayAndReddemDemo */;
+			targetProxy = BD1147EA1E14BA6D008D42A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD1147D11E14BA6D008D42A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD1147D21E14BA6D008D42A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD1147D61E14BA6D008D42A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD1147D71E14BA6D008D42A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD1147F01E14BA6D008D42A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD1147F11E14BA6D008D42A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD1147F31E14BA6D008D42A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayAndReddemDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayAndReddemDemo/PayAndReddemSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.PayAndReddemDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD1147F41E14BA6D008D42A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayAndReddemDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayAndReddemDemo/PayAndReddemSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.PayAndReddemDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD1147F61E14BA6D008D42A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PayAndReddemDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.PayAndReddemDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayAndReddemDemo.app/PayAndReddemDemo";
+			};
+			name = Debug;
+		};
+		BD1147F71E14BA6D008D42A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PayAndReddemDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.PayAndReddemDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayAndReddemDemo.app/PayAndReddemDemo";
+			};
+			name = Release;
+		};
+		BD1147F91E14BA6D008D42A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PayAndReddemDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.PayAndReddemDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PayAndReddemDemo;
+			};
+			name = Debug;
+		};
+		BD1147FA1E14BA6D008D42A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PayAndReddemDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.PayAndReddemDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PayAndReddemDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD1147C01E14BA6D008D42A6 /* Build configuration list for PBXProject "PayAndReddemDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1147F01E14BA6D008D42A6 /* Debug */,
+				BD1147F11E14BA6D008D42A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1147F21E14BA6D008D42A6 /* Build configuration list for PBXNativeTarget "PayAndReddemDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1147F31E14BA6D008D42A6 /* Debug */,
+				BD1147F41E14BA6D008D42A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1147F51E14BA6D008D42A6 /* Build configuration list for PBXNativeTarget "PayAndReddemDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1147F61E14BA6D008D42A6 /* Debug */,
+				BD1147F71E14BA6D008D42A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1147F81E14BA6D008D42A6 /* Build configuration list for PBXNativeTarget "PayAndReddemDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1147F91E14BA6D008D42A6 /* Debug */,
+				BD1147FA1E14BA6D008D42A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD1147BD1E14BA6D008D42A6 /* Project object */;
+}
