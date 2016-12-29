@@ -23,6 +23,7 @@
     self.window.rootViewController = firstNav;
     
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
